@@ -83,4 +83,15 @@ public class TC01_page {
 
     @FindBy(xpath = "//button[@class='btn _def -mvs']")
     public WebElement LogoutButton;
+
+  // ************
+    @FindBy(xpath = "//input[@id='fi-q']")
+    public WebElement ProductButton;
+
+    @FindBy(xpath = "//button[@class='btn _prim _md -mls -fsh0']")
+    public WebElement SearchButton;
+
+    @FindBy(xpath = "//p[@class='-gy5 -phs']")
+    public WebElement ProductFoundTextVisible;
+
 }

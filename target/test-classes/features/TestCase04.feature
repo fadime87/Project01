@@ -11,4 +11,3 @@ Feature: .TestCase04
     Then Enter 'Login' buttonnm
     Then Verify  That "Logged in as username" is visible
     And Enter "Logout" Button
-    
