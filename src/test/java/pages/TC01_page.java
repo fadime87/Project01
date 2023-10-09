@@ -11,7 +11,7 @@ public class TC01_page {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-      @FindBy(xpath = "(//button[@class='cls'])[3]")
+      @FindBy(xpath = "(//button[@class='cls'])[2]")
       public WebElement ClickXButon;
 
     @FindBy(xpath = "//div[@class='col3 -df -i-ctr']")
@@ -94,4 +94,25 @@ public class TC01_page {
     @FindBy(xpath = "//p[@class='-gy5 -phs']")
     public WebElement ProductFoundTextVisible;
 
+   //***********
+   @FindBy(xpath = "(//a[@role='menuitem'])[1]")
+   public WebElement OfficialStoresButton;
+
+    @FindBy(xpath = "(//img[@class='-rad4'])[1]")
+    public WebElement PhonesButton;
+
+    @FindBy(xpath = "//p[@class='-gy5 -phs']")
+    public WebElement VerifyPhoneFoundText;
+
+    @FindBy(xpath = "(//img[@class='img'])[1]")
+    public WebElement SelectPhoneProduct;
+
+    @FindBy(xpath = "//button[@class='add btn _prim -pea _i -fw']")
+    public WebElement AddToCartButton;
+
+    @FindBy(xpath = "//aside[@class='noti']")
+    public WebElement VerifyAddSuccesfulyText;
+
+    @FindBy(xpath = "(//button[@class='cls'])[2]")
+    public WebElement CloseXButton2;
 }
